@@ -174,7 +174,6 @@ nav li a {
         
 }
 
-
 .gamer-content {
     text-align: right;
     width: 75%;
@@ -293,3 +292,55 @@ nav li a {
     height: auto;
 
 }
+/* section logo starts */
+#logo{
+    display: grid;
+   grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  
+   justify-content: space-around;
+   align-items: center;
+}
+.logo-btn{
+display: inline-flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding: 5px;
+border-radius: 50px;
+background: #f6f0f0;
+}
+.btn-img{
+    width: 20%;
+}
+
+/* section logo hover */
+.logo-btn :hover{
+    border: 1px solid #F948B2;
+    color: #F948B2;
+
+}
+/* footer section starts */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
