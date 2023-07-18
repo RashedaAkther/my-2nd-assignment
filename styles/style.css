@@ -296,9 +296,10 @@ nav li a {
 #logo{
     display: grid;
    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
-  
    justify-content: space-around;
    align-items: center;
+   margin: auto;
+   padding: auto;
 }
 .logo-btn{
 display: inline-flex;
@@ -320,9 +321,40 @@ background: #f6f0f0;
 
 }
 /* footer section starts */
-
-
-
+footer{
+    background-color: #0B0223;
+    
+}
+.footer-titel{
+    color: white;
+}
+footer nav li a{
+    color: white;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+        color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+}
+.footer-para{
+    color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+}
 
 
 
