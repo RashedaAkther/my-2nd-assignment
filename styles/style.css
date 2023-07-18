@@ -201,7 +201,40 @@ text-align: center;
     height: auto;
 }
 /* section play starts */
-
+#play{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding: 100px;
+    position: relative;
+}
+.play-container{
+    text-align: right;
+}
+.play-heading{
+font-size: 3rem;
+font-weight: 700;
+}
+.play-para{
+font-size: 1rem;
+font-weight: 400;
+}
+.play-img{
+    width: 120%;
+    height: auto;
+}
+.uper-img{
+    width: 50px;
+    height: 50px;
+    bottom: 200px;
+    right: 600px;
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+    position: absolute;
+   
+}
 
 
 
