@@ -407,6 +407,8 @@ footer nav li a {
         background-image: url("../images/Group 14.png");
         background-repeat: no-repeat;
         background-size: 250px 250px;
+        padding: 20px;
+        
         
     }
 
@@ -431,7 +433,7 @@ footer nav li a {
 
     #banner {
         grid-template-columns: 1fr;
-        padding-left: 150px;
+        padding-left: 50px;
     }
 
     #gamer{
