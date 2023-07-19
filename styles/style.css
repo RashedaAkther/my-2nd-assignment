@@ -154,27 +154,6 @@ nav li a {
     height: auto;
 }
 
-/* gamer hover styles */
-.online-card-img :hover {
-
-    -webkit-filter: brightness(30%);
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-
-.online-card-img {
-    position: relative;
-}
-
-.online-icon {
-    position: absolute;
-    top: 35%;
-    left: 40%;
-
-}
 
 .gamer-content {
     text-align: right;
@@ -245,6 +224,42 @@ nav li a {
     height: auto;
 }
 
+/* online-gamer hover styles */
+.online-card-img :hover {
+
+    -webkit-filter: brightness(30%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.online-icon :hover {
+    opacity: 1;
+}
+
+.online-card-img {
+    position: relative;
+}
+
+.online-icon {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    color: #FFF;
+    /* background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s; */
+}
+
+
+
+
 /* section play starts */
 #play {
     display: grid;
@@ -302,7 +317,7 @@ nav li a {
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: auto;
+    padding: 100px;
 }
 
 .logo-btn {
@@ -372,6 +387,22 @@ footer nav li a {
 /* responsive styles */
 /* responsive for mobile device */
 @media screen and (max-width: 576px) {
+
+    .header-titel{
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+.banner-content {
+        background-image: url("../images/Group 14.png");
+        background-repeat: no-repeat;
+        background-size: 250px 250px;
+        
+    }
+
+
     header {
         flex-direction: column;
         justify-content: center;
@@ -397,17 +428,21 @@ footer nav li a {
 
     #gamer{
         grid-template-columns: 1fr;
-        padding-left: 100px;
+        text-align: center;
           
     }
+        .gamer-content {
+            text-align: center;
+            padding-left: 40px;
+        }
     #online-game{
         text-align: center;
     }
     .online-game-heading {
-        padding-left: 100px;
+        padding-left: 50px;
     }
     .online-game-para{
-        padding-left: 100px;
+        padding-left: 50px;
     }
 .online-card {
     flex-direction: column;
@@ -433,9 +468,24 @@ footer nav li a {
 
 #logo{
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    padding-left: 80px;
+padding: 20px;
+
+    /* gap: 30px;
+    padding-left: 80px; */
 }
+
+.logo-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 3px;
+    border-radius: 50px;
+    background: #f6f0f0;
+    margin-left: 5px;
+}
+
+
 .footer-icon {
     flex-direction: column;
 }
@@ -497,6 +547,8 @@ footer nav li a {
     
         #play {
             grid-template-columns: 1fr;
+            /* padding: 0px;
+            margin: 0px; */
         }
     
         .play-img {
@@ -513,11 +565,23 @@ footer nav li a {
             left: -50px;
         }
     
-        #logo {
-            grid-template-columns: 1fr 1fr;
-            gap: 30px;
-            padding-left: 80px;
-        }
+   #logo {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+       justify-content: center;
+       align-items: center;
+       margin: auto;
+       padding: 100px;
+   }
+                .logo-btn {
+                    
+                   
+                  
+                    padding: 30px;
+                    border-radius: 50px;
+                    background: #f6f0f0;
+                    margin-left: 5px;
+                }
     
         .footer-icon {
             flex-direction: column;
