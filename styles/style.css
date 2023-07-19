@@ -387,6 +387,14 @@ footer nav li a {
 /* responsive styles */
 /* responsive for mobile device */
 @media screen and (max-width: 576px) {
+    .banner-2nd-heading{
+        font-size: 46px;
+            font-weight: 400;
+    }
+        .banner-heading {
+            font-size: 1.5rem;
+                font-weight: 400;
+        }
 
     .header-titel{
             text-align: center;
