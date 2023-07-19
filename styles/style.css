@@ -414,11 +414,14 @@ footer nav li a {
 }
 #play{
     grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
 }
 .play-img {
     width: 120%;
     height: auto;
 }
+
 
 .main-uper-img{
     width: 150px;
